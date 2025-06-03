@@ -1,4 +1,4 @@
-echo '# Data Warehouse and Analytics Project
+
 
 ## Overview
 
@@ -37,7 +37,7 @@ This project is licensed under the [MIT License](LICENSE). You are free to use, 
 
 ## About Me
 
-Hi there! I'\''m **Phong Đặng**. I'\''m an student in HCMUT
+Hi there! I'm **Phong Đặng**. I'm an student in HCMUT
 
 
 ## Contact
