@@ -1,3 +1,4 @@
+
 --run by:EXEC silver.load_silver
 CREATE OR ALTER PROCEDURE silver.load_silver AS
 BEGIN
@@ -154,3 +155,4 @@ FROM bronze.erp_px_cat_g1v2;
 PRINT '--- All data processing completed successfully. ---';
 
 END
+
