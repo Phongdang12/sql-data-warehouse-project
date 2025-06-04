@@ -17,6 +17,7 @@ Usage Example:
 ---
 */
 
+
 CREATE OR ALTER PROCEDURE bronze.load_bronze AS
 BEGIN
     DECLARE @batch_start_time DATETIME = GETDATE();
