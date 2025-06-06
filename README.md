@@ -10,7 +10,7 @@ Source data originates from local `.csv` files and is processed step-by-step to 
 ---
 
 ## 🧱 Data Architecture
-
+``` text
 data/
 ├── raw/ # Raw CSV files (Bronze Layer)
 ├── cleaned/ # Cleaned data (Silver Layer)
