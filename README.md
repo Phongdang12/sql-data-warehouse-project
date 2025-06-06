@@ -6,7 +6,6 @@ The source data comes from local `.csv` files and is processed step-by-step to m
 ---
 ## 🧱 Data Architecture
 
-```text
 📂 data/
 ├── raw/             # Raw CSV files (Bronze Layer)
 ├── cleaned/         # Cleaned data (Silver Layer)
