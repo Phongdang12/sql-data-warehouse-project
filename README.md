@@ -1,35 +1,25 @@
+## 📌 Project Description
 
+This project simulates building a basic **SQL-based Data Warehouse** using a multi-layered architecture: **Bronze → Silver → Gold**.  
+The source data comes from local `.csv` files and is processed step-by-step to make it ready for analysis and reporting.
 
-## Overview
+---
 
-Welcome to the **Data Warehouse and Analytics Project** repository! This project demonstrates a comprehensive data warehousing and analytics solution, from building a data warehouse to generating actionable insights. Designed as a portfolio project, it helps build a new data warehouse from scratch.
+## 🧱 Data Architecture
 
-## Project Requirements
+```text
+📂 data/
+├── raw/             # Raw CSV files (Bronze Layer)
+├── cleaned/         # Cleaned data (Silver Layer)
+└── final/           # Analytical data (Gold Layer)
 
-### Building the Data Warehouse (Data Engineering)
-
-#### Objective
-
-Develop a modern data warehouse using SQL Server to consolidate sales data, enabling analytical reporting and informed decision-making.
-
-#### Specifications
-
-- **Data Sources**: Import data from two source systems (ERP and CRM) provided as CSV files.
-- **Data Quality**: Cleanse and resolve data quality issues prior to analysis.
-- **Integration**: Combine both sources into a single, user-friendly data model designed for analytical queries.
-- **Scope**: Focus on the latest dataset only; historization of data is not required.
-- **Documentation**: Provide clear documentation in the data model to support both business stakeholders and analytics teams.
 
 ### BI: Analytics & Reporting (Data Analytics)
 
-#### Objective
-
-Develop SQL-based analytics to deliver detailed insights into:
-- **Customer Behavior**
-- **Product Performance**
-- **Sales Trends**
-
-These insights empower stakeholders with key business metrics, enabling strategic decision-making.
+| Tool                          | Description                        |
+| ----------------------------- | ---------------------------------- |
+| SQL (PostgreSQL / SQL Server) | Data processing and storage        |
+| Git / GitHub                  | Version control and sharing        |
 
 ## License
 
