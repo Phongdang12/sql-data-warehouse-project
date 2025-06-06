@@ -14,7 +14,7 @@ The source data comes from local `.csv` files and is processed step-by-step to m
 └── final/           # Analytical data (Gold Layer)
 
 
-### BI: Analytics & Reporting (Data Analytics)
+##BI: Analytics & Reporting (Data Analytics)
 
 | Tool                          | Description                        |
 | ----------------------------- | ---------------------------------- |
