@@ -15,7 +15,7 @@ data/
 ├── raw/ # Raw CSV files (Bronze Layer)
 ├── cleaned/ # Cleaned data (Silver Layer)
 └── final/ # Analytical data (Gold Layer)
-'''
+```
 ---
 
 ## BI: Analytics & Reporting (Data Analytics)
